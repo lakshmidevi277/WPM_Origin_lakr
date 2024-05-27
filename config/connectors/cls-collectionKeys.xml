@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="ccs:MSDynamics" connectorServiceName="ccs:MSDynamics"/>
+            <keyDetails collectionKey="ccs:amazonS3" connectorServiceName="ccs:amazonS3"/>
+            <keyDetails collectionKey="ccs:coupa" connectorServiceName="ccs:coupa"/>
+            <keyDetails collectionKey="ccs:servic_now" connectorServiceName="ccs:servic_now"/>
+            <keyDetails collectionKey="ccs:servicenow1" connectorServiceName="ccs:servicenow1"/>
+            <keyDetails collectionKey="ccs:servicenow2" connectorServiceName="ccs:servicenow2"/>
+            <keyDetails collectionKey="ccs:sf_rest_v51_ccs" connectorServiceName="ccs:sf_rest_v51_ccs"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+    <cloudstreamsCollectionKeys serviceName="WmWorkdayProvider.SOAPVS">
+        <servicesKeys>
+            <keyDetails collectionKey="ccs:workday" connectorServiceName="ccs:workday"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
+        <servicesKeys>
+            <keyDetails collectionKey="ccs:netsuite" connectorServiceName="ccs:netsuite"/>
+            <keyDetails collectionKey="ccs:sf_soap_v53_queryAcc" connectorServiceName="ccs:sf_soap_v53_queryAcc"/>
+            <keyDetails collectionKey="ccs:sf_soap_v53_updateAcc" connectorServiceName="ccs:sf_soap_v53_updateAcc"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
